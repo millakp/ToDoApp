@@ -16,14 +16,11 @@ $(document).ready(function(){
         
       localStorage.setItem("listItems", $("#list-items").html());
         $("#todo-list-item").val("");
-      
        
-        
       }
        else
           alert("input box can't be empty!");
-    });
-    
+    });   
     
     $(document).on("change", ".checkbox", function(){
       if($(this).attr("checked")){
@@ -43,6 +40,5 @@ $(document).ready(function(){
       $(this).parent().remove();
       localStorage.setItem("listItem", $("#list-items").html());
     });
-  
-  
+    
   });
