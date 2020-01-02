@@ -1,7 +1,7 @@
 h1
-{ font-family: "Liu Jian Mao Cao" cursive;
-  color: #ff0066;
-  font-size: 50px; 
+{ font-family: "Liu Jian Mao Cao", cursive;
+  color: #ff6666;
+  font-size: 90px; 
 }
 
 h2{
@@ -62,6 +62,4 @@ font-size:30px;
   cursor:pointer;
 }
 
-body {
-  background-color:#ffcce0;
-}
+
