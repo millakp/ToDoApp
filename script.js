@@ -1,10 +1,7 @@
 $(document).ready(function(){
-  
-  
     $("#list-items").html(localStorage.getItem("listItems"));
     
     $(".add-items").submit(function(event){
-      
       event.preventDefault();
       
       var item = $("#todo-list-item").val();
@@ -17,7 +14,6 @@ $(document).ready(function(){
         
       localStorage.setItem("listItems", $("#list-items").html());
         $("#todo-list-item").val("");
-        
         
       }
       else
