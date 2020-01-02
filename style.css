@@ -1,7 +1,7 @@
-.headings {
-  font-family: "Liu Jian Mao Cao" cursive;
-  color: #00000
-
+h1
+{ font-family: "Liu Jian Mao Cao" cursive;
+  color: #00000;
+  font-size: 50px; 
 }
 
 h2{
