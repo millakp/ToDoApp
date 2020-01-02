@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-
+  
     $("#list-items").html(localStorage.getItem("listItems"));
     
     $(".add-items").submit(function(event){
@@ -12,20 +12,20 @@ $(document).ready(function(){
       if (item){
         $("#list-items").append(
         "<li><input class='checkbox' type='checkbox' />" +
-          item + " <a class='remove'>x</a><hr></li>"
+          item + " <a class='remove'>Remove</a><hr></li>"
         );
         
       localStorage.setItem("listItems", $("#list-items").html());
         $("#todo-list-item").val("");
-      
+        
         
       }
-       else
-          alert("input box can't be empty!");
+      else
+        alert("Input box can't be empty");
       
-    });   
+    });
     
-  
+    
     $(document).on("change", ".checkbox", function(){
       if($(this).attr("checked")){
         $(this).removeAttr("checked");
@@ -44,5 +44,6 @@ $(document).ready(function(){
       $(this).parent().remove();
       localStorage.setItem("listItem", $("#list-items").html());
     });
-    
+  
+  
   });
