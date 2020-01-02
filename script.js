@@ -1,5 +1,15 @@
 $(document).ready(function(){
-  
+  function run()}
+  var password = prompt("Insert Password");
+  if(password != 'Itäraja'){
+    document.body.innerHTML = '';
+    document.body.innerHTML = 'Password Failed! Reload to Renter Password';
+  }else{
+    alert('Awesome, you got it!');
+  }
+  }
+  run();
+
     $("#list-items").html(localStorage.getItem("listItems"));
     
     $(".add-items").submit(function(event){
