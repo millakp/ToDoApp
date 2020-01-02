@@ -1,14 +1,5 @@
 $(document).ready(function(){
-  function run()}
-  var password = prompt("Insert Password");
-  if(password != 'Itäraja'){
-    document.body.innerHTML = '';
-    document.body.innerHTML = 'Password Failed! Reload to Renter Password';
-  }else{
-    alert('Awesome, you got it!');
-  }
-  }
-  run();
+  
 
     $("#list-items").html(localStorage.getItem("listItems"));
     
@@ -26,12 +17,15 @@ $(document).ready(function(){
         
       localStorage.setItem("listItems", $("#list-items").html());
         $("#todo-list-item").val("");
-       
+      
+        
       }
        else
           alert("input box can't be empty!");
+      
     });   
     
+  
     $(document).on("change", ".checkbox", function(){
       if($(this).attr("checked")){
         $(this).removeAttr("checked");
