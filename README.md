@@ -8,4 +8,4 @@ https://mystifying-hamilton-8ce5b5.netlify.com
 
 # Github
 
-millakp.github.io
+https://millakp.github.io
