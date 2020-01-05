@@ -1,3 +1,3 @@
-# http://username.github.io
+# http://millakp.github.io
 
 Final assignment for coding course
