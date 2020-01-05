@@ -1,4 +1,4 @@
-# http://millakp.github.io
+# Coding course
 
 Final assignment for coding course
 
